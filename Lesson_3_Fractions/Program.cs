@@ -59,16 +59,16 @@ namespace Lesson_3_Fractions
                 Fraction divS = Fraction.Simplify(div.i, div.n, div.d);
                 Console.Write($"\nHere is simplicated divide: {divS}\n");
 
-                double decSum = sum.n / sum.d;
+                double decSum = Convert.ToDouble(sum.n / sum.d);
                 Console.Write($"\nHere is sum decimal: {decSum:F2}\n");
 
-                double decSub = sub.n / sub.d;
+                double decSub = Convert.ToDouble(sub.n / sub.d);
                 Console.Write($"\nHere is sum decimal: {decSub:F2}\n");
 
-                double decMul = mul.n / mul.d;
+                double decMul = Convert.ToDouble(mul.n / mul.d);
                 Console.Write($"\nHere is sum decimal: {decMul:F2}\n");
 
-                double decDiv = div.n / div.d;
+                double decDiv = Convert.ToDouble(div.n / div.d);
                 Console.Write($"\nHere is sum decimal: {decDiv:F2}\n");
 
                 Console.Write("If you don't want to repeat press 'n': ");

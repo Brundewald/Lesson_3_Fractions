@@ -1,6 +1,8 @@
 ﻿using System;
 using Complex_Library;
 
+/*Created by Nikita Mialkin for GeekBrains*/
+
 namespace Complex_Exercise
 {
     class Program

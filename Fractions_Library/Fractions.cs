@@ -79,7 +79,7 @@ namespace Fractions_Library
         {
             if (nmbr1.d == nmbr2.d) return new Fraction(
                 i: 0,
-                n: nmbr1.n - nmbr2.n,
+                n: (nmbr1.n - nmbr2.n)*-1,
                 d: nmbr1.d
                 );
             else return new Fraction(
