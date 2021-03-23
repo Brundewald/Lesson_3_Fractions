@@ -8,27 +8,32 @@ namespace Lesson_3_Fractions
         static void Main(string[] args)
         {
             Console.WriteLine("Hi! This program will help you with rational fractions.\n");
+            Fraction_Calculator();
+            Console.Write("Bye!");
+        }
+
+        private static void Fraction_Calculator()
+        {
             while (true)
             {
                 int a;
-                
-                
+
+
 
                 Fraction nmbr = new Fraction(0, 0, 0);
-                
+
                 a = getNumerator(ref nmbr);
                 a = getDivisor(ref nmbr);
 
                 nmbr = Fraction.Simplify(nmbr.i, nmbr.n, nmbr.d);
 
                 Console.Write($"You entered fraction: {nmbr}\n");
-                                
+
                 Console.Write("Do you want to repeat? (y/n): ");
                 string rpt = Console.ReadLine();
 
                 if (rpt == "n") break;
             }
-            Console.Write("Bye!");
         }
 
         private static int getDivisor(ref Fraction nmbr)
