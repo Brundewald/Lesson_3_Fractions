@@ -1,5 +1,7 @@
 ﻿using System;
 
+/*Created by Nikita Mialkin for GeekBrains*/
+
 namespace Fractions_Library
 {
     public struct Fraction

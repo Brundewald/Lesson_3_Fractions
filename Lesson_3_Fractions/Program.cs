@@ -1,6 +1,8 @@
 ﻿using System;
 using Fractions_Library;
 
+/*Created by Nikita Mialkin for GeekBrains*/
+
 namespace Lesson_3_Fractions
 {
     class Program
