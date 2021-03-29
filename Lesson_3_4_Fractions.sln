@@ -9,11 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fractions_Library", "Fracti
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fractions", "Fractions", "{4FCD6D49-2F30-48AC-8AC3-DEA2D0ACD273}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Complex_Exercise", "Complex\Complex_Exercise.csproj", "{FD3AEC0F-BB04-454C-B693-62503AEA4699}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Complex_Exercise", "Complex\Complex_Exercise.csproj", "{FD3AEC0F-BB04-454C-B693-62503AEA4699}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Complex_Library", "Complex_Library\Complex_Library.csproj", "{38C04F41-5C06-4C83-9F38-E8FDC01D4C0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Complex_Library", "Complex_Library\Complex_Library.csproj", "{38C04F41-5C06-4C83-9F38-E8FDC01D4C0C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Complex", "Complex", "{58C5AE5D-6B02-44CA-A76B-278C22A4FE58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Array", "Array", "{79C0CA23-C7A0-405F-B0E6-48D82753BD7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork1", "HomeWork1\HomeWork1.csproj", "{D31B5B1F-4835-421A-81FC-39C9781483DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +41,10 @@ Global
 		{38C04F41-5C06-4C83-9F38-E8FDC01D4C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38C04F41-5C06-4C83-9F38-E8FDC01D4C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38C04F41-5C06-4C83-9F38-E8FDC01D4C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D31B5B1F-4835-421A-81FC-39C9781483DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D31B5B1F-4835-421A-81FC-39C9781483DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D31B5B1F-4835-421A-81FC-39C9781483DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D31B5B1F-4835-421A-81FC-39C9781483DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +54,7 @@ Global
 		{81DBB18A-EAE3-423E-8436-A81DA39BBAC9} = {4FCD6D49-2F30-48AC-8AC3-DEA2D0ACD273}
 		{FD3AEC0F-BB04-454C-B693-62503AEA4699} = {58C5AE5D-6B02-44CA-A76B-278C22A4FE58}
 		{38C04F41-5C06-4C83-9F38-E8FDC01D4C0C} = {58C5AE5D-6B02-44CA-A76B-278C22A4FE58}
+		{D31B5B1F-4835-421A-81FC-39C9781483DC} = {79C0CA23-C7A0-405F-B0E6-48D82753BD7B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {69DF7AFD-4096-4252-B8BB-72AB6746C3C4}
