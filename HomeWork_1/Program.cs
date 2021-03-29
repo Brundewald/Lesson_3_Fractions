@@ -8,7 +8,7 @@ namespace HomeWork_1
         {
 
             instructions.Start();
-            LogPas.Start();
+            LogPass.Start();
             Console.ReadKey();
             
 
