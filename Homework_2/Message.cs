@@ -13,8 +13,9 @@ namespace Homework_2
             Console.Write($"\nMessage: {msg}\n");
             int nmbr = Convert.ToInt32(Console.ReadLine());
             Console.Write($"\nNumber: {nmbr}\n");
+            string word;
 
-            if (msg.Is)
+            if (char.IsLetter(msg))
             {
                 Console.WriteLine(msg);
             }
