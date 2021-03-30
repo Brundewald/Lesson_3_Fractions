@@ -8,12 +8,9 @@ namespace HomeWork_1
     {
         static void Main(string[] args)
         {
-
             instructions.Start();
             LogPass.Start();
             Console.ReadKey();
-            
-
         }
     }
 }
