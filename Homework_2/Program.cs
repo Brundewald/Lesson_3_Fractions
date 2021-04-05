@@ -9,6 +9,7 @@ namespace Homework_2
         static void Main(string[] args)
         {
             Message.Start();
+            Console.ReadKey();
         }
     }
 }
