@@ -2,7 +2,7 @@
 
 /*Created by Nikita Mialkin for GeekBrains*/
 
-namespace HomeWork1
+namespace HomeWork2
 {
     class Program
     {
