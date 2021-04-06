@@ -11,13 +11,9 @@ namespace HomeWork3
 {
     class GetStudents
     {
-        public static void StudentsData() 
-        {
-            int bach = 0;
-            int mast = 0;
-
-            ArrayList list = new ArrayList();
-           
+        public static void StudentsData(out List<string> listNames) 
+        {            
+            listNames = new List<string>();                       
 
             StreamReader sr = new StreamReader("students.csv");
             while (!sr.EndOfStream)
@@ -25,24 +21,13 @@ namespace HomeWork3
                 try
                 {
                     string[] s = sr.ReadLine().Split(';');
-                    list.Add(s[1] + " " + s[0]);
-                    if (int.Parse(s[6]) < 6) bach++;
-                    else mast++;
-
+                    listNames.Add(s[1] + " " + s[0]);
+                    
                 }
                 catch { }
-                //{
-                //    Console.WriteLine("Can't read from file");
-                //    Console.WriteLine(e);
-                //}
             }
-            sr.Close();
-            list.Sort();
-            Console.WriteLine($"Bachelors: {bach}\nMasters: {mast}\n");
-            foreach (var v in list) 
-            {
-                Console.WriteLine(v);
-            }
+            listNames.RemoveAt(0);
+            sr.Close();         
         }
         
 
