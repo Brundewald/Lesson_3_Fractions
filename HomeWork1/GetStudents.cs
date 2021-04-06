@@ -19,7 +19,7 @@ namespace HomeWork3
             ArrayList list = new ArrayList();
            
 
-            StreamReader sr = new StreamReader("C:\\Users\\nsm\\source\\repos\\Lesson_3_Fractions\\students.csv");
+            StreamReader sr = new StreamReader("students.csv");
             while (!sr.EndOfStream)
             {
                 try
@@ -31,9 +31,14 @@ namespace HomeWork3
 
                 }
                 catch { }
+                //{
+                //    Console.WriteLine("Can't read from file");
+                //    Console.WriteLine(e);
+                //}
             }
             sr.Close();
             list.Sort();
+            Console.WriteLine($"Bachelors: {bach}\nMasters: {mast}\n");
             foreach (var v in list) 
             {
                 Console.WriteLine(v);
