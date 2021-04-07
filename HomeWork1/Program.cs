@@ -12,8 +12,8 @@ namespace HomeWork3
     {
         static void Main(string[] args)
         {
-            GetStudents.StudentsData(out List<string> list);
-            DataHandler.GetData(data: list);
+           
+            DataHandler.DataViewer();
 
         }
     }

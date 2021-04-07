@@ -8,19 +8,19 @@ using System.Collections;
 namespace HomeWork3
 {
     class DataHandler
-    {
-        public static void GetData(List <string> data) 
-        {
-            int bach = 0;
-            int mast = 0;
-            //for (int i=0; i<data.Count; i++)
-            //{
-            //    if (data[i].) < 5) bach++;
-            //    else mast++;
-            //}
-           
-            
 
-        }
+    {
+        public static void DataViewer() 
+        {
+            int i=0;
+            GetStudentsData.StudentsList(out List<string> listNames);
+            GetStudentsData.GetCourse(out List<int> listCourse);
+
+            foreach (var v in listNames) 
+            {                
+                Console.WriteLine($"Student: {v} Course: {listCourse[i]}");
+                i++;
+            }
+        }        
     }
 }

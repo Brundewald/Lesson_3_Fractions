@@ -9,9 +9,9 @@ using System.Collections;
 
 namespace HomeWork3
 {
-    class GetStudents
+    class GetStudentsData
     {
-        public static void StudentsData(out List<string> listNames) 
+        public static void StudentsList(out List<string> listNames) 
         {            
             listNames = new List<string>();                       
 
@@ -29,7 +29,26 @@ namespace HomeWork3
             listNames.RemoveAt(0);
             sr.Close();         
         }
-        
+
+        public static void GetCourse(out List<int> listCourse)
+        {
+            int bach = 0;
+            int mast = 0;
+            listCourse = new List<int>();
+
+            StreamReader sr = new StreamReader("students.csv");
+            while (!sr.EndOfStream)
+            {
+                try
+                {
+                    string[] s = sr.ReadLine().Split(';');
+                    listCourse.Add(int.Parse(s[6]));
+                }
+                catch { }
+            }            
+            sr.Close();
+        }
+
 
     }
 }
