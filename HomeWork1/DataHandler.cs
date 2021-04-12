@@ -15,11 +15,17 @@ namespace HomeWork3
             int i=0;
             GetStudentsData.StudentsList(out List<string> listNames);
             GetStudentsData.GetCourse(out List<int> listCourse);
+            GetStudentsData.GetAge(out List<string> ageAndCourse);
+
 
             foreach (var v in listNames) 
             {                
-                Console.WriteLine($"Student: {v} Course: {listCourse[i]}");
+                Console.WriteLine($"Student: {v} Course: {listCourse[i]}\n");
                 i++;
+            }
+            foreach (var v in ageAndCourse) 
+            {
+                Console.WriteLine(v);
             }
         }        
     }
