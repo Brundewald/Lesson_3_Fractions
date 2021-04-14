@@ -11,7 +11,7 @@ namespace HomeWork4
         public static void Run() 
         {
             GetRandom.RandomFile();
-            //GetRandom.ReadFileFS();
+            GetRandom.ReadFileSR();
         }
     }
 }
