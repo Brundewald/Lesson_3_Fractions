@@ -1,20 +1,16 @@
 ﻿using System;
-using System.Collections;
-using System.IO;
-using System.Collections.Generic;
-
 
 /*Created by Nikita Mialkin for GeekBrains*/
 
-namespace HomeWork3
+namespace HomeWork_1
 {
     class Program
     {
         static void Main(string[] args)
         {
-           
-            DataHandler.DataViewer();
-
+            instructions.Start();
+            LogPass.Start();
+            Console.ReadKey();
         }
     }
 }
